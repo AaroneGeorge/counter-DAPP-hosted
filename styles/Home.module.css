@@ -1,0 +1,69 @@
+/* Home.module.css */
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  height: 100vh;
+  width: 100%;
+  max-width: 1440px;
+  padding: 20vh 1rem 0;
+  margin: 0 auto;
+}
+
+.centerContent {
+  text-align: center;
+}
+
+
+.title {
+  line-height: 1.15;
+  font-size: 4rem;
+}
+
+/* Other title, description, connect, code, and other styles... */
+
+.logo {
+  height: 1em;
+  margin-left: 0.5rem;
+}
+
+@media (max-width: 768px) {
+  /* ... */
+}
+
+.card,
+.footer {
+  border-color: #222;
+}
+
+.logo img {
+  filter: invert(1);
+}
+
+.counterContainer {
+  text-align: center;
+  position: relative;
+  max-width: 300px;
+  margin: 0 auto; /* Center the counter container */
+}
+
+.buttonContainer {
+  display: flex;
+  justify-content:flex-end; /* Center the buttons horizontally */
+  align-items: flex-start; /* Align items to the top */
+  width: 300px; /* Adjust width if needed */
+  margin-top: 20px; /* Adjust top margin as needed */
+}
+
+.appButton {
+  background-color: white;
+  color: #333333;
+  border: none;
+  border-radius: 5px;
+  padding: 0.5rem 1rem;
+  font-size: 1.1rem;
+  cursor: pointer;
+  transition: all 0.2s ease-in-out;
+  width: 30px; /* Adjust width of buttons */
+  text-align: center; /* Center text in buttons */
+}
